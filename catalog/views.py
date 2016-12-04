@@ -27,3 +27,6 @@ def product(request, slug):
         'product': product
     }
     return render(request, 'catalog/product.html', context)
+
+    
+    

@@ -28,3 +28,5 @@ class ProductListTestCase(TestCase):
         self.assertTrue('product_list' in response.context)
         product_list = response.context['product_list']
         self.assertEquals(product_list.count(), 10)
+
+        

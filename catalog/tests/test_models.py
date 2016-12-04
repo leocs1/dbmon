@@ -30,3 +30,4 @@ class ProductTestCase(TestCase):
             self.product.get_absolute_url(),
             reverse('catalog:product', kwargs={'slug': 'produto'})
         )
+
